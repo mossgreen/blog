@@ -118,19 +118,36 @@ ul {
     &__content {
         padding-top: 40px;
         h1,h2,h3,h4,h5{
-        margin-top: 24px;
-        margin-bottom: 16px;
-        font-weight: 600;
-        line-height: 1.25;
+            display: block;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            line-height: 1.25;
+        }
+        h1{
+            margin: 0.67em 0;
+        }
+
+        h2{
+            font-size: 1.5em;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #eee;
+            -webkit-margin-before: 0.83em;
+            -webkit-margin-after: 0.83em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
         }
 
         h3 {
             font-size: 1.25em;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
         }
 
         h4 {
             font-size: 1em;
-            display: block;
             -webkit-margin-before: 1.33em;
             -webkit-margin-after: 1.33em;
             -webkit-margin-start: 0px;
@@ -166,6 +183,8 @@ ul {
             -webkit-margin-end: 0px;
             -webkit-padding-start: 40px;
 
+          
+
 
             li {
                 padding: 5px;
@@ -177,6 +196,10 @@ ul {
             @media screen and (max-width: $br) {
                 margin-left: 10px;
             }
+        }
+
+        ul{
+            list-style-type: disc;
         }
         img {
             margin-top: 10px;

@@ -3,14 +3,15 @@ layout: post
 title: Thinking in jQuery
 ---
 
-These are my notes while reading some blogs(e.g., http://www.ruanyifeng.com) and the book [jqfundamentals](http://www.jqfundamentals.com/).
+>These are my notes while reading some blogs(e.g., http://www.ruanyifeng.com) and the book [jqfundamentals](http://www.jqfundamentals.com/).
 The content will be the following:
 
-### 1. How to select DOM elements
+How to select DOM elements
+---
 
-    the basic design concept of JQ is that it selects an element from DOM and manipulate it directly.
+the basic design concept of JQ is that it selects an element from DOM and manipulate it directly.
 
-1.1 the select expression can be CSS selectors:
+### 1. the select expression can be CSS selectors:
 
 ```
 $(document) // to select whole document object
@@ -19,7 +20,7 @@ $('div.myClass') // to select the element whose class is myclass
 $('input[name=first]') // the input element whose name attribute is 'first'
 ```
 
-1.2 the select expression can also be JQ expression:
+### 2. the select expression can also be JQ expression:
 	
 ```
 $('a:first') // to select the first element in the page
@@ -30,7 +31,8 @@ $('div:gt(2)') //to select all div elements except the first three (index starts
 $('div:animated') // to select those elements that is currently animating
 ```
 
-### 2. How to change the result sets
+How to change the result sets
+---
 3. Chaining 
 4. DOM manipulating: get and set values
 5. DOM manipulating: movement
