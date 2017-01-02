@@ -1,6 +1,9 @@
+# Blog settings
+permalink: /blog/:title
+
 # My variables
 name: Feifei GU
-description: simple web design
+description: Moss web design
 google_verification: null
 
 
