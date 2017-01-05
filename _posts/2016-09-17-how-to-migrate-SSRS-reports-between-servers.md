@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to migreate SSRS reports from one server to another?
+title: how to migreate SSRS reports from one server to another?
 ---
 
 >Watch my [Youtobe video](https://youtu.be/1knwXRIbVNw) to get details!

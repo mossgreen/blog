@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Server Configuration
+title: SQL Server configuration
 ---
 
 

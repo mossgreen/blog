@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding SQL Server Connection Strings
+title: understanding SQL Server connection strings
 ---
 
 These are my notes while using connection strings with VS 2015 and SQL Server products.
