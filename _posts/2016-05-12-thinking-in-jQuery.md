@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thinking in jQuery
+title: thinking in jQuery
 ---
 
 >These are my notes while reading some blogs(e.g., http://www.ruanyifeng.com) and the book [jqfundamentals](http://www.jqfundamentals.com/).

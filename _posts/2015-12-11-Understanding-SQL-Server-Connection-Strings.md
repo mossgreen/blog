@@ -27,7 +27,7 @@ Specifying an Initial Catalog in the connection string automatically switches th
 This connection string uses a feature called User Instances. A user instance opens up a target database file directly in a new instance of SQL Server Express that is running under the context of the current user. This is useful for users that are not administrators on their machines. Note that the database can not also be attached to a running SQL Server instance for this type of connection to succeed, which means you won’t see this database in a tool like SQL Server Management Studio unless you attach to it.
 
 ### 4. TODOs
-```
-01. Connection String Tools: use visual studio to generate connection strings
 
-```
+1. Connection String Tools: use visual studio to generate connection strings
+
+
