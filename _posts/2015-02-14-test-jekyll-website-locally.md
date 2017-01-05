@@ -15,19 +15,19 @@ Requirements
 
 - *Update 'Gemfile' in foot directory*:
 
-    ```
-    source 'https://rubygems.org'
-    gem 'github-pages', group: :jekyll_plugins
-    ```
+```
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
+```
 
-* *Install Jekyll and other dependencies from the GitHub Pages gem:*:`$ bundle install`
+- *Install Jekyll and other dependencies from the GitHub Pages gem:*:`$ bundle install`
 
 Test with your lcoal Jekyll site
 ---
 
 - *Navigate to root directory:* `cd blog`
 
-- *Run your Jekyll site locally:* $ bundle exec jekyll serve
+- *Run your Jekyll site locally:* `$ bundle exec jekyll serve`
 
     Navigate to: 'localhost:4200'
 
