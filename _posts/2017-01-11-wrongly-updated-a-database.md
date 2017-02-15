@@ -13,8 +13,9 @@ set country = 'Australia'
 
 I didn't select the last line, so all the original data under country column is lost and cannot be rollback. I write this blog to record what I've after that:
 
-1. Call manager, report the mistake
-2. Call DBA, ask for a backup instance
+
+1. Call DBA, ask for a backup instance
+2. Call manager, report the mistake
 3. Migrate  the data back from the backup instance to production
 4. Write an Email to tell manager all done
 
