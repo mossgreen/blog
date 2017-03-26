@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What you should do after updating a table by mistake?
+title: what you should do after updating a table by mistake?
 ---
 
 So sorry that I falsely updated the database with the following script:
