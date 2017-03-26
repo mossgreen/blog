@@ -31,8 +31,29 @@ $('div:gt(2)') //to select all div elements except the first three (index starts
 $('div:animated') // to select those elements that is currently animating
 ```
 
-How to change the result sets
+Manipulate the result sets
 ---
+
+jQ provides various of filter so that you can filter the result set to get your data.
+
+```
+$('div').has('p'); // select div elements have p 
+$('div').not('.myClass'); // select classes the don't have myClass
+$('div').filter('.myClass'); //select class = myClass
+$('div').fist(); //fist div
+$('div').eq(5); //select 6th div element
+```
+
+Sometimes, we need to start from the result set and move to our target data. jQ also provides methods to move on the DOM tree.
+
+```
+$('div').next('p'); //select first p after div
+$('div').parent(); //select div's parent element
+$('div').closet('form');//select the form parent element nearest div
+$('div').children(); //select all child elements of div
+$('div').siblings(); //select all div elements with same level
+```
+
 3. Chaining 
 4. DOM manipulating: get and set values
 5. DOM manipulating: movement
@@ -40,3 +61,4 @@ How to change the result sets
 7. Tools
 8. Event
 9. Special effect
+
