@@ -54,7 +54,32 @@ $('div').children(); //select all child elements of div
 $('div').siblings(); //select all div elements with same level
 ```
 
-3. Chaining 
+Chaining 
+---
+
+After selecting your target element from DOM, you can also manipulate it. Like `$('div').find('h3').eq(2).html('hello');`, to be specific:
+
+```
+$('div') //find div elements
+    .find('h3')//select the h3 elements
+    .eq(2) //the 3rd h3 element
+    .html('hello'); //change its content to hello
+```
+
+Note that, each jQuery returns a jQuery object so that we can do the chaining.
+
+In jQuery, there is a `.end()` method. It basically goes back to the parent set.
+
+```
+$('div') 
+    .find('h3')
+        .eq(2) 
+        .html('hello')
+        .end() //go back one step, to -> .find('h3')
+        .eq(0) //select first h2
+        .html('world');
+```
+
 4. DOM manipulating: get and set values
 5. DOM manipulating: movement
 6. DOM manipulating: copy and create  elements
