@@ -1,17 +1,19 @@
 ---
-layout: post
-title: thinking in jQuery
+title: Thinking in jQuery
+tags: 
+  - jQuery
+  - Web Development
+toc: true
 ---
 
->These are my notes while reading some blogs(e.g., http://www.ruanyifeng.com) and the book [jqfundamentals](http://www.jqfundamentals.com/).
-The content will be the following:
+> jQuery is still strong!
 
 How to select DOM elements
 ---
 
 the basic design concept of JQ is that it selects an element from DOM and manipulate it directly.
 
-### 1. the select expression can be CSS selectors:
+### 1. the select expression can be CSS selectors
 
 ```
 $(document) // to select whole document object
@@ -20,7 +22,7 @@ $('div.myClass') // to select the element whose class is myclass
 $('input[name=first]') // the input element whose name attribute is 'first'
 ```
 
-### 2. the select expression can also be JQ expression:
+### 2. the select expression can also be JQ expression
 	
 ```
 $('a:first') // to select the first element in the page

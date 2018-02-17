@@ -1,44 +1,45 @@
 ---
-layout: post
-title: how to test jekyll website locally
+title: How to Test Jekyll Website Locally
+search: true
+categories: 
+  - Jekyll
 ---
 
->Test jekyll website just on GitHub Pages is unprofessional and can be dangerous. We highly recommend installing Jekyll to preview your site and help troubleshoot failed Jekyll builds.
+
+> Test jekyll website just on GitHub Pages is unprofessional and can be dangerous. We highly recommend installing Jekyll to preview your site and help troubleshoot failed Jekyll builds.
 
 
 Requirements
 ---
 
-- *Install Ruby*: `$ sodu install ruby`
+- Install Ruby: `$ sodu install ruby`
 
-- *Install bundler*: `$ gem isntall bundler`
+- Install bundler: `$ gem isntall bundler`
 
-- *Update 'Gemfile' in foot directory*:
-
-```
-source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-```
-
-- *Install Jekyll and other dependencies from the GitHub Pages gem:*:`$ bundle install`
-
-Test with your lcoal Jekyll site
----
-
-- *Navigate to root directory:* `cd blog`
-
-- *Run your Jekyll site locally:* `$ bundle exec jekyll serve`
-
-    Navigate to: 'localhost:4200'
-
-- **Recommend to use 'watch mood'** :
+- Update 'Gemfile' in project directory:
 
     ```
-    $ jekyll server --watch
+    source 'https://rubygems.org'
+    gem 'github-pages', group: :jekyll_plugins
     ```
 
-     Navigate to 'http://127.0.0.1:4000/` 
+- In project directory, update dependencies:`$ bundle install`
 
-Keeping your site up to date
+Run it
 ---
-- *Add your changes and push to repo on GitHub*
+
+- Navigate to root directory: `cd blog`
+
+- Run your Jekyll site locally on 'watch mood': 
+
+    ```yaml
+    $ bundle exec jekyll serve --watch
+    ```
+
+- Navigate to: 'localhost:4200' or 'http://127.0.0.1:4000/'
+
+- If you update something, when you hit "Save", it will automaticly update
+
+End
+---
+- Add your changes and push to repo on GitHub

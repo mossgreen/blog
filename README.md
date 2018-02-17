@@ -1,5 +1,7 @@
-# getmicah.github.io
-My blog made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
-
-### License
-All this stuff is under the [MIT License](https://raw.githubusercontent.com/getmicah/getmicah.github.io/master/LICENSE)
+1. update all blogs make it compile with current theme
+    - title should be title-cased
+    - remove underline? however need to show they're links
+2. Update style, code within `asdf` should be hilighted
+3. Remove one line comments in front page
+4. Add about me page
+5. Add tags in front page
